@@ -1,0 +1,22 @@
+{
+    "provinceState": "England",
+    "countryRegion": "United Kingdom",
+    "lastUpdate": "1639272136000",
+    "lat": "52.3555",
+    "long": "-1.1743",
+    "confirmed": "9138773",
+    "deaths": "127271",
+    "recovered": "null",
+    "active": "null",
+    "admin2": "null",
+    "fips": "null",
+    "combinedKey": "England, United Kingdom",
+    "incidentRate": "16325.8844672474",
+    "peopleTested": "null",
+    "peopleHospitalized": "null",
+    "uid": "82601",
+    "iso3": "GBR",
+    "cases28Days": "1040092",
+    "deaths28Days": "2911",
+    "iso2": "GB"
+}

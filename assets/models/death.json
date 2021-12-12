@@ -1,0 +1,22 @@
+{
+    "provinceState" : "",
+    "countryRegion" : "",
+    "lastUpdate" : "",
+    "lat" : "",
+    "long" : "",
+    "confirmed" : "",
+    "deaths" : "",
+    "recovered" : "",
+    "active" : "",
+    "admin2" : "",
+    "fips" : "",
+    "combinedKey" : "",
+    "incidentRate" : "",
+    "peopleTested" : "",
+    "peopleHospitalized" : "",
+    "uid" : "",
+    "iso3" : "",
+    "cases28Days" : "",
+    "deaths28Days" : "",
+    "iso2" : ""
+}
