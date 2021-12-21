@@ -10,6 +10,8 @@ import 'package:covid19/app/modules/detail_daily/bindings/detail_daily_binding.d
 import 'package:covid19/app/modules/detail_daily/views/detail_daily_view.dart';
 import 'package:covid19/app/modules/home/bindings/home_binding.dart';
 import 'package:covid19/app/modules/home/views/home_view.dart';
+import 'package:covid19/app/modules/login/bindings/login_binding.dart';
+import 'package:covid19/app/modules/login/views/login_view.dart';
 
 part 'app_routes.dart';
 
@@ -43,6 +45,11 @@ class AppPages {
       name: _Paths.DETAIL_DAILY,
       page: () => DetailDailyView(),
       binding: DetailDailyBinding(),
+    ),
+    GetPage(
+      name: _Paths.LOGIN,
+      page: () => LoginView(),
+      binding: LoginBinding(),
     ),
   ];
 }

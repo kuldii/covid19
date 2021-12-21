@@ -9,6 +9,7 @@ abstract class Routes {
   static const CONFIRMED = _Paths.CONFIRMED;
   static const DEATH = _Paths.DEATH;
   static const DETAIL_DAILY = _Paths.DETAIL_DAILY;
+  static const LOGIN = _Paths.LOGIN;
 }
 
 abstract class _Paths {
@@ -17,4 +18,5 @@ abstract class _Paths {
   static const CONFIRMED = '/confirmed';
   static const DEATH = '/death';
   static const DETAIL_DAILY = '/detail-daily';
+  static const LOGIN = '/login';
 }

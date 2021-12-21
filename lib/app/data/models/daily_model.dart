@@ -77,9 +77,7 @@ class Daily {
 
   static List<Daily>? fromListJson(List? dataList) {
     if (dataList?.length == 0 || dataList == null) return null;
-    dataList.forEach((element) {
-      print(element);
-    });
+
     return dataList.map((e) => Daily.fromJson(e)).toList();
   }
 }

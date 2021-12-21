@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 
 class DeathController extends GetxController {
   Future<List<Death>?> getDataDeath() async {
-    DeathProvider confirmProv = DeathProvider();
+    DeathProvider deathsProv = DeathProvider();
 
-    List<Death>? hasil = await confirmProv.getDataDeath();
+    List<Death>? hasil = await deathsProv.getDataDeath();
 
     return hasil;
   }
